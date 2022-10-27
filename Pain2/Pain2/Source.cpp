@@ -3,6 +3,8 @@
 
 using namespace std;
 
+// This is exercise 3
+
 int main() {
 	int x;
 	cout << "What is your number? "; // talk to user

@@ -2,6 +2,8 @@
 #include <string>
 using namespace std;
 
+// This is Exercise 1 and 2
+
 int main() {
     cout << "Coding is Pain" << endl;
 
