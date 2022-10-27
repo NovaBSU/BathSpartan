@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\461962\Documents\GitHub\BathSpartan\Circles\Circles\Source.cpp(15,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\461962\Documents\GitHub\BathSpartan\Circles\Circles\Source.cpp(16,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Circles.vcxproj -> C:\Users\461962\Documents\GitHub\BathSpartan\Circles\x64\Debug\Circles.exe

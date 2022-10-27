@@ -9,9 +9,9 @@ int main() {
 	int age = 0;
 
 	cout << "Your Name: ";
-	cin >> name;
+	getline(cin, name);
 	cout << "Your Town: ";
-	cin >> town;
+	getline(cin, town);
 	cout << "Your Age: ";
 	cin >> age;
 
