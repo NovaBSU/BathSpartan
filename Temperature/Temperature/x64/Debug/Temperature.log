@@ -1,4 +1,4 @@
 ﻿  Source.cpp
-C:\Users\461962\Documents\GitHub\BathSpartan\Temperature\Temperature\Source.cpp(35,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\461962\Documents\GitHub\BathSpartan\Temperature\Temperature\Source.cpp(35,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 C:\Users\461962\Documents\GitHub\BathSpartan\Temperature\Temperature\Source.cpp(50,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   Temperature.vcxproj -> C:\Users\461962\Documents\GitHub\BathSpartan\Temperature\x64\Debug\Temperature.exe

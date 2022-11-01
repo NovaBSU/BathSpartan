@@ -32,7 +32,7 @@ int main() {
 				cout << "Please input the temperature in Fahrenheit using digits below" << endl;
 				cin >> tempInF;
 			}
-			tempInC = tempInF - 32 * 0.5556;
+			tempInC = (tempInF - 32) * 0.5556;
 			cout << "The temperature in Celsius is " << tempInC << " degrees" << endl;
 		}
 	}
@@ -40,15 +40,15 @@ int main() {
 		if (typeInput == fah[i]) {
 			cout << "Converting Celsius to Fahrenheit." << endl;
 			cout << "Please input temperature in Celsius below" << endl;
-			cin >> tempInF;
+			cin >> tempInC;
 			while (cin.fail()) {
 				cin.clear();
 				cin.ignore(256000, '\n');
-				cout << "Please input the temperature in Fahrenheit using digits below" << endl;
+				cout << "Please input the temperature in Celsius using digits below" << endl;
 				cin >> tempInC;
 			}
 			tempInF = tempInC * 1.8 + 32;
-			cout << "The temperature in Celsius is " << tempInC << " degrees" << endl;
+			cout << "The temperature in Fahrenheit is " << tempInF << " degrees" << endl;
 		}
 	}
 	return 0;
